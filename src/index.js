@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import ContactCard from "./components/Card/ContactCard.js"
+import Form from "./components/Form/Form.js"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
